@@ -6,4 +6,4 @@ Resources:
         TaskDefinition: "arn:aws:ecs:us-west-2:695292474035:task-definition/task-nginx:9"
         LoadBalancerInfo:
           ContainerName: "nginx"
-          ContainerPort: 0
+          ContainerPort: 80
